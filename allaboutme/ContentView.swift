@@ -40,15 +40,17 @@ struct ContentView: View {
             
                 
                 HStack {
+                    
+                    Image("outdoors")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 210.0, height: 200.0)
+                    
                     Image("film")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 210.0, height: 200.0)
                         
-                    Image("outdoors")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 210.0, height: 200.0)
             }
             
             
